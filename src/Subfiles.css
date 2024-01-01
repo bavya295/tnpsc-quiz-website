@@ -1,0 +1,56 @@
+body{
+    overflow-y: scroll;
+    overflow-x: hidden2;
+}
+.header-bg{
+    position: absolute;
+    width:100%;
+    height:100px;
+    top:-3px;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px; /* Add padding for space around the logo */
+  }
+  
+  .logo {
+    margin-right: 20px; /* Adjust the margin to create space between the logo and menu */
+  }
+  
+  .logo img {
+    max-width: 100px; /* Adjust the maximum width of the logo as needed */
+  }
+  
+  /* Rest of your navigation CSS remains unchanged */
+  
+  
+  
+ 
+  .files{
+    position: relative;
+    left:500px;
+    top:20px;
+  }
+  .files ul {
+    list-style: none;
+    display: grid;
+  }
+  .files ul li{
+    padding : 15px 20px;
+   font-size: 26px;
+   cursor: pointer;
+  }
+  .files ul li:hover{
+    padding : 15px 20px;
+   font-size: 30px;
+   color: crimson;
+   cursor: pointer;
+  }
+  @media (max-width:900px) {
+    .files{
+      position: relative;
+      left:30px;
+      top:20px;
+    }
+  }

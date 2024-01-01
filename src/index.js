@@ -1,13 +1,25 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+//import Register from './Register';
+//import Login from './Login';
+//import Dashboard from './Dashboard';
+//import Questions from './Questions';
+//import Subfiles from './Subfiles';
+//import About from './About';
+//import Track from './Track';
 import reportWebVitals from './reportWebVitals';
+//import Homepage from './Homepaage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter basename='/tnpsc-quiz-website'>
+    <App/>
+    </BrowserRouter>
+  
   </React.StrictMode>
 );
 

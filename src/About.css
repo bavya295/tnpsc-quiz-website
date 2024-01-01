@@ -1,0 +1,57 @@
+.about-us{
+    position: relative;
+    font-size: 54px;
+    color: rgb(165, 35, 89);
+    top:-90px;
+}
+.about-description{
+    background-color: rgb(138, 49, 66);
+    position: relative;
+    width:90%;
+    left:10px;
+     font-size:30px;
+     color: aliceblue;
+     margin: 30px;
+     padding: 30px;
+     top:-80px;
+     animation-name: descrip;
+     animation-duration: 3s;
+}
+@keyframes descrip {
+    from{
+        left:-100px;
+    }
+    to{
+        left:40px;
+    }
+}
+.about-img{
+    position: relative;
+    left:1100px;
+    top:430px;
+    animation-name: stulogo;
+     animation-duration: 3s;
+}
+.about-img1{
+    position: relative;
+    left:600px;
+    top:10px;
+    animation-name: tnlogo;
+     animation-duration: 3s;
+}
+@keyframes stulogo {
+    from{
+        left:2000px;
+    }
+    to{
+        left:1100px;
+    }
+}
+@keyframes tnlogo {
+    from{
+        left:1200px;
+    }
+    to{
+        left:600px;
+    }
+}

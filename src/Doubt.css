@@ -1,0 +1,85 @@
+/* Doubt.css */
+
+/* Style for the entire doubt component */
+.doubt-component {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Style for the form to add new doubts */
+.post-doubt {
+  margin-bottom: 20px;
+}
+
+.post-doubt form {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-doubt label {
+  margin-bottom: 5px;
+}
+
+.post-doubt textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+.post-doubt input[type='submit'] {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c7368d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.post-doubt input[type='submit']:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the existing doubts */
+.doubt-division .doubt-subdiv {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.doubt-division .doubt-subdiv p {
+  margin: 0;
+}
+
+.doubt-division .doubt-subdiv button {
+  margin: 5px;
+  padding: 1px 12px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #d39cbb;
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.doubt-division .doubt-subdiv button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Style for displaying replies */
+.replies {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ebadc9;
+}
+
+.replies p {
+  margin: 5px 0;
+}
+.answer-close{
+  position: relative;
+  background-color: red;
+}

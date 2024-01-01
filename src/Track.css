@@ -1,0 +1,104 @@
+.track-head{
+    position: relative;
+    color: rgb(77, 15, 28);
+    font-size: 60px;
+    top:30px;
+}
+.track-display{
+    position: relative;
+    background-color: bisque;
+    padding:10px 20px;
+    width:30%;
+    box-shadow: 2px 2px 4px rgba(5, 7, 1, 0.5);
+}
+.status-div{
+    position: relative;
+    left:400px;
+    top:50px;
+}
+.media-track{
+    display: none;
+}
+.navbar {
+    padding: 20px 20px; /* Padding around the navbar */
+    position: relative;
+    width: 160%;
+    background-repeat: no-repeat;
+    color: burlywood;
+    border:2px solid #090000;
+    box-shadow: 0px 2px 4px rgba(203, 23, 74, 0.7);
+}
+
+/* Style for the navbar brand */
+.navbar-brand {
+font-size: 24px; /* Font size */
+font-weight: bold; /* Font weight */
+padding: 20px 20px;
+background-size: cover;
+color: rgb(255, 255, 255) !important;
+background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0ICA0IBw0HBwcHBw0HBwcHCA8ICQcNFREWFhURExMYHSggGCYlJxUTITEhMSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NECsZFRkrKzctLTcrKy0tKystNy0rKysrKysrKysrKystKysrKysrLSsrKysrKysrKysrKysrLf/AABEIALcBEwMBIgACEQEDEQH/xAAbAAADAQEBAQEAAAAAAAAAAAABAgMABAUGB//EABwQAQEBAQEBAQEBAAAAAAAAAAABEQISAxMhMf/EABoBAQEBAQEBAQAAAAAAAAAAAAIBAAMEBQb/xAAbEQEBAQEBAQEBAAAAAAAAAAAAARECEgMTIf/aAAwDAQACEQMRAD8A/OvnHT84j846PnHqnL938YvxFeYnwryvl9P5nh4WHi+Xp5ow0LDQvLrKItGKQmFmdJEW+NdPFcvyjp4Trlw7VhoWHg440YaBDRMCjDQpomCIgKYIiUU8oZgFPKNjYzDeWLYWw4ULyUR7jm+nLr6iPcC8rrg7mJW/10/Xly9t5G/02ilrJ5DHgcR0fNHiL8PdOXm+S3CnKfKnK+Xv4qkNCQ8Xy9PNNDQsNFx1lNBLDRcOVhZjkZX5Ojly/O5XTxWscu4tDROU8oY4WKQxNHWwbDwSSjKmCcS6OpgmEmjqYmHYutqeUNrF1rU8tjWhaFoWjeSxrUuqa1Pqj5TEvrHH9Y6/pXJ9a3hsQYl6/rN+a+a8nhbhLlXl6ZHi+avKnKfJ4WPXwpDQkPGx6OaaGhYaLjrKaDCw0XHSUwlhikKVleOkoJY1munnpSdOTnpSdpeXK8OmdGnTnnY+08heXTOhnTnnZp0nkby6J0PpCdG9J5C8q6OpehnSeU8q6OpTofSeUxTQ0uho+Uw1pLQtJ103ksbrpProOukuu18N5bvpy/bo/wBO3P1/S/M5wlf9Y2M3lsebypynypy0j5nCnKkT5PCenmqQ0JDxsd+aaGhYaLjrKaDCwYuOkp4MLBinKYSiUIWjMTDpp0VmxMUnZp2iMrYl5dM6NOnPzTzofLneVvQzpH0M6byPledDKjOjSjeRvKuhaT0W9D5TD9dJddh10h9OynBTke+0eu9Cg6TnDzApaalqWDS4wiPlHkcqco81TmuUfH5q0PEpTym9HNVh4lKeNj0c1SGhIaLjrKaGhIZnSU0EsFTlOxTEWiJRUtFgZW0zAysfmmlT0fTYlimtpPTa2Jispp0h6H2mDYt6J12neyW6s5bybrtOsC4zAzLg2hQo0KlggzMOM8Xmn5qMqkrzx8LnpaU8qMqkpR6OelpTSpSnlJ356VlNKnKaVcduelJTROU0rY6zo+iTTa2OkphhdHVKUwl0SLRYGVtMwMy6Il1lbTaxWVtHWDWZNEA1tVNYGBsG0QYFHWas1SoDMws8CU8qUp5Xkj89zVpTyoynlOO3PS0p5UJTyk7c9LSnlRlNKTtz2tKaVGdHnSus7VlHUp0bVx0namm1KU0rYc7UlHU5R1cOdKMTR1cL0bW0utq43o2jpNHWb0Zi62q2jraXW1U9G0NLrayejaAaGqOmYuijaIMzVWZmFXzkp5UpTSvBK/MyqynlSlNK6Sus6VlPKjKaUpXSdLSmlRlNOj11na0pp0jOhnROk7XnQzpGdGnSnO1p0M6RnRp0RztWdGnSMozpTna06N6RlGVTnaujqWjrF7U1tJray+j62l1tVfRtDS62sno2tpdbWTTa2l1tZtNok0dZZTMDahSmYoouvmZTSoynlfNlfl50rKaVKU0pynKrKMqUppTlOdKymnSMppSlOdLSjKjOjTopXSdLTo06RlGUtOdLSjKlKMpSnOlpRlSlGdFpzpaUZUp0Mq6c6V02pSjq6c6V1tT0dbSnSmtpNbVL0fW0mtrN6PraTW1tTT62k1tbW0+jpNHU0pT6Ok1tS05T6xNYdXXy8p5UZTyvmSvyc6VlGVKU0pyuk6VlGVLR0pS9Kyj6S0fRSlOlp0M6R9DOi0p2vOjTpCdDOi052vOjTpCdGnS+nSdryjOkZ0M6KdOk7WlNKjOjTop0U6WnQ6jOh9F6OdLaPpL0OrpTtX0Opem9Lpe1dbU9HW0vR9bSa2trej6Ok1tbV0+jqejKmlKpraTWtHS0+sn6ZNb0+YlPKjKeV8uV+VnSko6no6Wn6U0dT0dLS9KaOpaOlq+ldHUtH0vpfSspp0j6H0Xo50tOjTpCdGnS+ina06NOkJ0adF6dJ2vOjTpCdDOl9HO150adITofRejna/ofSM6GdFOjna3odRnQ+l9F7W9DqPofS+inSujqXofTei9KaOpeh9NqzpTR1P03pNL0roXpP0W9JrXtT0yXoE0fb5ydGnQs+VK/M8006H0DHrpo+h9My6uj6b0zFq6PpvQsurrehnTMurtH0PpmLV2jOjTtmXTnVGdmnbMWlOqM7NOwZdOdU07Gdsy6c6ozsfYsul6rfoP6My6U6o/oP6Ay6Xqj+g/ozNqzuj+gfozNq+6F+gX6MzaN7ofozM2j6r//2Q==");
+}
+
+/* Style for the toggler icon */
+.navbar-toggler-icon {
+background-color: #f9ebeb; /* Color of the toggler icon */
+}
+
+/* Style for the links */
+.nav-link {
+    color: #090000;
+    font-weight: 700;
+    position: relative;
+    left: 100px;
+    margin-right: 20px; /* Add margin to increase the gap between nav links */
+  }
+  
+  /* To target all but the last nav-link */
+  .nav-link:not(:last-child) {
+    margin-right: 70px; /* Adjust as needed */
+  }
+  
+  .nav-link:hover {
+    background-size: 30px;
+    background-color: #090000;
+    color: crimson !important;
+  }
+  
+/* Style for the active link */
+.nav-link.active {
+color: #007bff; /* Color of the active link */
+}
+
+/* Style for the dropdown */
+.dropdown-menu {
+position: relative;
+left:400px;  /* Background color of the dropdown menu */
+}
+
+/* Style for the dropdown items */
+.dropdown-item {
+color: #120101;
+position: relative;
+top:0px;
+ /* Text color of the dropdown items */
+}
+
+/* Style for the dropdown items on hover */
+.dropdown-item:hover {
+background-color: #040002; /* Background color on hover */
+color: #ba1348 !important; /* Text color on hover */
+}
+@media (min-width:200px) and (max-width:800px) {
+    .status-div{
+        position: relative;
+        left:100px;
+        top:50px;
+    }
+    .track-display{
+        position: relative;
+        background-color: bisque;
+        padding:10px 20px;
+        width:60%;
+        box-shadow: 2px 2px 4px rgba(5, 7, 1, 0.5);
+    }
+}

@@ -1,0 +1,117 @@
+.side-layout {
+    background-color: #f4f4f4;
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    top:-56px;
+}
+
+.side-layout h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.side-layout p {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.side-layout a, .dropdown-toggle {
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.side-layout a:hover, .dropdown-toggle:hover {
+    background-color: #ddd;
+}
+
+.side-layout a.active {
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+}
+
+.dropdown-toggle {
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.dropdown-menu {
+    width: 100%;
+    border: none;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #ddd
+}
+.Manage-pdf {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    width:60%;
+    left:470px;
+    top:-580px;
+}
+.delete-btn{
+    position: relative;
+    left:40px;
+    background-color: darkred;
+    border: none;
+    color: #f4f4f4;
+}
+.count {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    width:40%;
+    position: relative;
+    top:-640px;
+    left:600px;
+}
+
+.Register-count,
+.user-count {
+    text-align: center;
+}
+
+.Register-count h1,
+.user-count h1 {
+    margin: 0;
+}
+
+.Register-count u,
+.user-count u {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 2px;
+}
+.welcome{
+    position: relative;
+    left:700px;
+    font-size: 40px;
+    top:60px;
+    color: rgb(163, 48, 136);
+}
