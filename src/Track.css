@@ -6,7 +6,8 @@
 }
 .track-display{
     position: relative;
-    background-color: bisque;
+    background-color: #200E3A;
+color: #ffffff;
     padding:10px 20px;
     width:30%;
     box-shadow: 2px 2px 4px rgba(5, 7, 1, 0.5);
@@ -20,14 +21,15 @@
     display: none;
 }
 .navbar {
-    padding: 20px 20px; /* Padding around the navbar */
+    padding: 20px 20px;
     position: relative;
     width: 160%;
-    background-repeat: no-repeat;
+    background-color: rgb(55, 51, 51)!important; /* This sets the background color to black */
     color: burlywood;
-    border:2px solid #090000;
+    border: 2px solid #090000;
     box-shadow: 0px 2px 4px rgba(203, 23, 74, 0.7);
 }
+
 
 /* Style for the navbar brand */
 .navbar-brand {
@@ -46,8 +48,10 @@ background-color: #f9ebeb; /* Color of the toggler icon */
 
 /* Style for the links */
 .nav-link {
-    color: #090000;
+    color: #ffffff !important;
     font-weight: 700;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     left: 100px;
     margin-right: 20px; /* Add margin to increase the gap between nav links */
@@ -60,8 +64,8 @@ background-color: #f9ebeb; /* Color of the toggler icon */
   
   .nav-link:hover {
     background-size: 30px;
-    background-color: #090000;
-    color: crimson !important;
+    background-color: #ffffff;
+    color:  #200E3A !important;
   }
   
 /* Style for the active link */

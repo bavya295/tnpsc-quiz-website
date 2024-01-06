@@ -1,0 +1,50 @@
+.adminquestion{
+    position: relative;
+    text-align: center;
+}
+.adminquestion h2{
+    color: brown;
+}
+.adminquestion label{
+    color: rgb(66, 15, 66);
+}
+.adminquestion input{
+    padding: 10px 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.adminquestion button{
+    background-color: rgb(23, 100, 103);
+    border: none;
+}
+.disp-question {
+    position: relative;
+    padding: 20px;
+    border: 2px solid brown;
+    background-color: aliceblue;
+    font-size: 18px;
+    width: 70%;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .question-display{
+    position: relative;
+    font-size: 28px;
+    color: rgb(128, 30, 49);
+  }
+  .option display{
+    position: relative;
+    font-size: 24px;
+    color: darkslategray;
+  }
+  .correct-answer{
+    position: relative;
+    font-size: 30px;
+    color: blue;
+  }
+  .description{
+    position: relative;
+    font-size: 17px;
+    left:56px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }

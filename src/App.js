@@ -15,6 +15,10 @@ import Thank from './Thank';
 import AdminDashboard from './Admin/AdminDashboard';
 import ManageCourses from './Admin/ManageCourses';
 import ManageQuriesandFeedback from './Admin/ManageQuriesandFeedback';
+import AdminPage from './Admin/Admin_question';
+import AdminSubdomain from './Admin/AdminSubdomain';
+import AdminPagequestion from './Admin/Admin_question';
+import ManageFeedback from './Admin/ManageFeedback';
 function App() {
   return(
     <>
@@ -37,7 +41,10 @@ function App() {
           <Route path="/admindashboard" element={<AdminDashboard />} />
           <Route path="/managecourses" element={<ManageCourses />} />
           <Route path="/managequriesandfeedback" element={<ManageQuriesandFeedback />} />
-
+          <Route path="/adminquestions" element={<AdminPage />} />
+          <Route path="/adminsubdomain" element={<AdminSubdomain />} />
+          <Route path="/adminpagequestion" element={<AdminPagequestion />} />
+          <Route path="/managefeedback" element={<ManageFeedback />} />
 
           {/* Define other routes here */}
         

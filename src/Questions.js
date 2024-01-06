@@ -12,29 +12,37 @@ export default function Questions(){
   const handleOptionChange = (option) => {
     setSelectedOption(option);
   };
+  let originalBackgroundColor; // Store the original background color
+
   const handleSubmit = () => {
-    // Logic to check the selected option against the correct answer
+    const quizContainer = document.querySelector('.quiz-container');
+    
+    
+      originalBackgroundColor = quizContainer.style.backgroundColor; // Store the original color if not stored yet
+    
+  
     if (selectedOption === solution) {
-      // Handle correct answer submission
-      // For example, show a success message or move to the next question
+      quizContainer.style.backgroundColor = '#1A5D1A'; // Change background color to green for correct answer
       console.log('Correct Answer!');
     } else {
-      // Handle incorrect answer submission
-      // For example, show an error message or allow another attempt
+      quizContainer.style.backgroundColor = '#952323'; // Change background color to red for incorrect answer
       console.log('Incorrect Answer!');
     }
   };
-
+  
   const handleNextQuestion = () => {
-    // Logic to move to the next question
-    // This might involve updating the state with a new question and options
-    // For example:
+    const quizContainer = document.querySelector('.quiz-container');
+    if (!originalBackgroundColor) {
+      quizContainer.style.backgroundColor = originalBackgroundColor; 
+    }
+  
+  
     setQuestion('What is the largest mammal?');
     setOptions(['Elephant', 'Whale', 'Giraffe', 'Rhinoceros']);
     setSolution('Whale');
     setSelectedOption('');
   };
-
+  
   const handleShowModal = () => {
     setShowModal(true);
   };

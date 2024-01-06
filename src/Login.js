@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import './Login.css';
 export default function Login(){
     return(
-        <> 
+        <div class="animation-login"> 
         <img  class="t-im1"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnOCo6OVQHkckVQNSweKFDEQkUQ_J3Bfk4mQ&usqp=CAU"></img>
         <img  class="t-im2"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_Dnqf3eSxTvFAaLKXwHTbWNV5NoPEo-Lbg&usqp=CAU"></img>
         <img  class="t-im3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK7OwlF3eB6X1wMENDzKPgfMX0QCm2N7DHtw&usqp=CAU"></img>
@@ -43,6 +43,6 @@ export default function Login(){
             <a href=''>Register</a>
             </Link>
         </form>
-        </>
+        </div>
     );
 }

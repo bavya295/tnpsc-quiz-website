@@ -9,7 +9,7 @@ import assistant from "./Images/Group 1 (5).png";
 
 export default function Dashboard(){
     return(
-        <>
+        <div class="animation-login">
          <header>
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
@@ -135,11 +135,12 @@ export default function Dashboard(){
    
 </div>
 
+
 <div class="Dashboard-pdf">
-    <h1 style={{color:"red",backgroundColor:"pink"}}>Download question paper PDF</h1>
-    <ol>
-        <li>
-            <div class="Group1">
+  <h1 style={{ color: "black", backgroundColor: "white",position:"relative",top:"-50px",fontWeight:"bold" }}>Download question paper PDF</h1>
+  <div class="courses-grid">
+    <div class="course-item">
+    <div class="Group1">
                 <h4>Group 1</h4>
 <a href="your-pdf-file.pdf" target="_blank" rel="noopener noreferrer">
   <i class="fas fa-file-pdf"></i> qp-2022
@@ -148,9 +149,9 @@ export default function Dashboard(){
   <i class="fas fa-file-pdf"></i> qp-2023
 </a>
 </div>
-</li>
-<li>
-            <div class="Group1">
+    </div>
+    <div class="course-item">
+    <div class="Group1">
                 <h4>Group 2</h4>
 <a href="your-pdf-file.pdf" target="_blank" rel="noopener noreferrer">
   <i class="fas fa-file-pdf"></i> qp-2022
@@ -159,9 +160,9 @@ export default function Dashboard(){
   <i class="fas fa-file-pdf"></i> qp-2023
 </a>
 </div>
-</li>
-<li>
-            <div class="Group1">
+    </div>
+    <div class="course-item">
+    <div class="Group1">
                 <h4>Group 3</h4>
 <a href="your-pdf-file.pdf" target="_blank" rel="noopener noreferrer">
   <i class="fas fa-file-pdf"></i> qp-2022
@@ -170,9 +171,20 @@ export default function Dashboard(){
   <i class="fas fa-file-pdf"></i> qp-2023
 </a>
 </div>
-</li>
-<li>
-            <div class="Group1">
+    </div>
+    <div class="course-item">
+    <div class="Group1">
+                <h4>Group 4</h4>
+<a href="your-pdf-file.pdf" target="_blank" rel="noopener noreferrer">
+  <i class="fas fa-file-pdf"></i> qp-2022
+</a>
+<a href="your-pdf-file.pdf" target="_blank" rel="noopener noreferrer">
+  <i class="fas fa-file-pdf"></i> qp-2023
+</a>
+</div>
+    </div>
+    <div class="course-item">
+    <div class="Group1">
                 <h4>CESE</h4>
 <a href="your-pdf-file.pdf" target="_blank" rel="noopener noreferrer">
   <i class="fas fa-file-pdf"></i> qp-2022
@@ -181,9 +193,19 @@ export default function Dashboard(){
   <i class="fas fa-file-pdf"></i> qp-2023
 </a>
 </div>
-</li>
-</ol>
-
+    </div>
+    <div class="course-item">
+    <div class="Group1">
+                <h4>Asst.Engineer</h4>
+<a href="your-pdf-file.pdf" target="_blank" rel="noopener noreferrer">
+  <i class="fas fa-file-pdf"></i> qp-2022
+</a>
+<a href="your-pdf-file.pdf" target="_blank" rel="noopener noreferrer">
+  <i class="fas fa-file-pdf"></i> qp-2023
+</a>
+</div>
+    </div>
+  </div>
 </div>
 
 <footer>
@@ -199,6 +221,6 @@ export default function Dashboard(){
   </div>
 </footer>
 
-        </>
+        </div>
     )
 }

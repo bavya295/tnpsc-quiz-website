@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import './Info.css';
 export default function Info(){
     return(
-        <>
+      <div class='animation-login'>
          <header>
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
@@ -85,6 +85,6 @@ export default function Info(){
     </div>
   </div>
 </footer>
-        </>
+        </div>
     )
 }

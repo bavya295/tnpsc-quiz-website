@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function About(){
     return(
-        <>
+      <div class='animation-login'>
     <header>
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
@@ -74,5 +74,5 @@ export default function About(){
     </div>
   </div>
 </footer>
-</>);
+</div>);
 }

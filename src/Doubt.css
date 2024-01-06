@@ -46,25 +46,35 @@
   border: 1px solid #ccc;
   padding: 10px;
   margin-bottom: 10px;
+  color: #000000;
   border-radius: 5px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #c9c2c5;
 }
 
 .doubt-division .doubt-subdiv p {
   margin: 0;
 }
-
+.heading-wd{
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .doubt-division .doubt-subdiv button {
   margin: 5px;
   padding: 1px 12px;
   border: 1px solid #000000;
   border-radius: 5px;
-  background-color: #d39cbb;
-  color: #ff0000;
+  
+  background-color: #200E3A;
+
+  color: #ffffff;
   cursor: pointer;
 }
 
 .doubt-division .doubt-subdiv button:hover {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
+  color: #200E3A;
 }
 
 /* Style for displaying replies */
@@ -73,7 +83,7 @@
   border: 1px solid #ccc;
   padding: 10px;
   border-radius: 5px;
-  background-color: #ebadc9;
+  background-color: #e1d2d9;
 }
 
 .replies p {
@@ -82,4 +92,7 @@
 .answer-close{
   position: relative;
   background-color: red;
+}
+.submit-input{
+  background-color: #200E3A !important;
 }

@@ -2,7 +2,7 @@
     position: relative;
     justify-content: center;
     text-align: center;
-    top:-70px;
+    top:-160px;
     left:360px;
 }
 
@@ -242,5 +242,20 @@ cursor: pointer;
   .login-head{
     top:400px;
     left:120px;
+  }
+}
+.animation-login{
+  opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInUp 2s ease forwards;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

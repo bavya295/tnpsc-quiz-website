@@ -1,7 +1,7 @@
 body{
   overflow-y: scroll;
   overflow-x: hidden;
-  background-color: #ffff;
+  background-color: #ffffff;
 }
 .header-bg{
     position: absolute;
@@ -80,7 +80,7 @@ color: #ba1348 !important; /* Text color on hover */
 }
 .profile-section{
     position: relative;
-    background-color: rgb(0, 0, 0);
+    background-color: #200E3A;
     top:10px;
     left:20px;
     width:25%;
@@ -136,12 +136,30 @@ header {
   
   .Dashboard-pdf {
   
-    background-color: #ebccdd;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     position: relative;
     top:100px;
+    width:100%;
 }
+
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* Two columns for each row */
+  gap: 20px; /* Space between grid items */
+}
+
+.course-item {
+  border: 5px solid #088395; /* Add borders or styling to individual course items */
+  padding: 57px;
+  background-color: #200E3A;
+
+  /* Additional styling for course items */
+}
+/* Additional styling for course titles, links, etc. */
+
 
 .Manage-pdf h1 {
     color: white;
@@ -151,20 +169,24 @@ header {
 }
 
 .Group1 {
-    margin-top: 20px;
-    border: 1px solid #3111b3;
-    padding: 10px;
+    
+    
+    padding: 20px;
+    width:200%;
     border-radius: 5px;
+    position: relative;
+    left:-56px;
 }
 
 .Group1 h4 {
     margin-bottom: 10px;
+    color: #ffffff;
 }
 
 .Group1 a {
     display: block;
     margin-bottom: 5px;
-    color: #333;
+    color: #ffffff;
     text-decoration: none;
 }
 .Group1 a:hover{
@@ -272,7 +294,7 @@ header {
     grid-template-columns: repeat(3, minmax(0, 1fr)); /* Equal width columns */
     gap: 50px; /* Adjust gap between cards */
     position: relative;
-    top:200px;
+    top:270px;
     left: -400px;
    
   }
@@ -338,7 +360,7 @@ header {
     top:30px;
     overflow: auto;
     color: #a60c0c;
-    box-shadow: #6f0a0a;
+    box-shadow: #ffffff;
   }
   .media-dashboard{
     display: none;

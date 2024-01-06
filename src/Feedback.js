@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Feedback(){
-  
+  const date = new Date();
         const [feedback, setFeedback] = useState('');
         const [showModal, setShowModal] = useState(false);
       
@@ -23,7 +23,7 @@ export default function Feedback(){
           setShowModal(false);
         };
     return(
-        <>
+      <div class='animation-login'>
          <header>
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
@@ -90,12 +90,13 @@ export default function Feedback(){
         ></textarea><br />
         <input type="submit" value="Submit" />
       </form>
-
+    
       {showModal && (
         <div className="modal">
           <div className="modal-content">
             <span className="close" onClick={closeModal}>&times;</span>
             <p>Thank you for your feedback! We appreciate it.</p>
+            <p>submited on {date.toDateString()}</p>
           </div>
         </div>
       )}
@@ -112,6 +113,6 @@ export default function Feedback(){
     </div>
   </div>
 </footer>
-        </>
+        </div>
     );
 }

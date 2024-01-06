@@ -1,37 +1,62 @@
+import React, { useState } from 'react';
 import "./ManageQuriesandFeedback.css";
-export default function ManageQuriesandFeedback(){
-    return(
-        <>
-        <div className="quries">
-        <div class="manage-quries-reply">
-            <h1>Manage Quries</h1>
-                    <form className="form">
-                    <button class="course-add">Reply query</button>
-                    <label htmlFor="queryID-reply">Enter Query id</label>
-                        <input id="queryID-reply" type="text" name="courseID" className="input-field" />
-                        <button type="submit" className="submit-btn"> Post Reply</button>
-                    </form>
-                    
-                    </div>
-                    <div class="manage-quries-delete">
-                    <form className="form">
-                    <button class="course-add">Delete Query</button>
-                    <label htmlFor="queryID-delete">Enter Query id</label>
-                        <input id="queryID-delete" type="text" name="courseID" className="input-field" />
-                        <button type="submit" className="submit-btn">Delete</button>
-                    </form>
-                    
-                    </div>
-                    </div>
-                    <div className="feedback">
-        <div class="manage-feedback-show">
-        <h1>Manage Feedback</h1>
-                    <button class="course-add">Show All Feedback</button>
-                    
-                     </div>
-                   
-                    </div>
-        </>
-    )
+const QueryComponent = () => {
+  const [queries, setQueries] = useState([
+    { id: 1, query: 'why sky is blue', reply: "because it is blue", showReply: false },
+    { id: 2, query: 'why 2 is here', reply: 'To get correct answer', showReply: false },
+    // Add more queries as needed...
+  ]);
 
-}
+  const [replyInput, setReplyInput] = useState('');
+
+  const handleReplyToggle = (id) => {
+    const updatedQueries = queries.map((query) =>
+      query.id === id ? { ...query, showReply: !query.showReply } : query
+    );
+    setQueries(updatedQueries);
+  };
+
+  const handleReply = (id) => {
+    // Here you might send the replyInput to an API or update the query directly in your state
+    const updatedQueries = queries.map((query) =>
+      query.id === id ? { ...query, reply: replyInput, showReply: false } : query
+    );
+    setQueries(updatedQueries);
+    setReplyInput('');
+  };
+
+  const handleDelete = (id) => {
+    const updatedQueries = queries.filter((query) => query.id !== id);
+    setQueries(updatedQueries);
+  };
+
+  return (
+    <div class="query-container">
+      <h2><b>Queries</b></h2>
+      {queries.map((query) => (
+        <div key={query.id} class="query">
+          <p class="query-asked">{query.query}</p>
+          <p class="reply-sent"><b>Reply:</b>{query.reply}</p>
+          {query.showReply ? (
+            <div>
+              <input
+                type="text"
+                value={replyInput}
+                onChange={(e) => setReplyInput(e.target.value)}
+                placeholder="Type your reply..."
+              />
+              <button onClick={() => handleReply(query.id)}>Submit Reply</button>
+            </div>
+          ) : (
+            <div>
+              <button class="query-reply"onClick={() => handleReplyToggle(query.id)}>Reply</button>
+              <button class="query-delete" onClick={() => handleDelete(query.id)}>Delete</button>
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default QueryComponent;

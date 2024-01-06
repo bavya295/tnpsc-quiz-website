@@ -1,7 +1,8 @@
 .side-layout {
-    background-color: #f4f4f4;
+    background-color: #200E3A;
     width: 250px;
     height: 100vh;
+    color: #ffffff;
     padding: 20px;
     box-sizing: border-box;
     position: relative;
@@ -15,7 +16,7 @@
 
 .side-layout p {
     font-size: 14px;
-    color: #888;
+    color: #fffcfc;
     margin-bottom: 20px;
 }
 
@@ -23,20 +24,18 @@
     display: block;
     padding: 10px 15px;
     margin-bottom: 10px;
+    font-size: 20px;
     text-decoration: none;
-    color: #333;
+    color: hsl(0, 100%, 100%);
     transition: background-color 0.3s ease;
 }
 
 .side-layout a:hover, .dropdown-toggle:hover {
-    background-color: #ddd;
+    background-color: #ffffff;
+    color: #000000;
 }
 
-.side-layout a.active {
-    font-weight: bold;
-    color: #fff;
-    background-color: #007bff;
-}
+
 
 .dropdown-toggle {
     width: 100%;
@@ -114,4 +113,19 @@
     font-size: 40px;
     top:60px;
     color: rgb(163, 48, 136);
+}
+.pdf-list{
+    position: relative;
+    margin-bottom: 40px;
+}
+.pdf{
+    background-color: #f5e0ec;
+    
+}
+.admin-logout{
+    border: none;
+   color: rgb(255, 4, 4);
+   position: relative;
+   left:30px;
+   
 }

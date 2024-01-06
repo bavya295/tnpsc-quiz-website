@@ -38,7 +38,7 @@ export default function Doubt(){
   };
   
     return(
-        <>
+      <div class='animation-login'>
           <header>
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
@@ -93,11 +93,11 @@ export default function Doubt(){
 <div className="doubt-component">
       <div className="post-doubt">
         <form onSubmit={handleDoubtSubmit}>
-          <label htmlFor="doubtText">Write your doubt:</label>
+          <label htmlFor="doubtText" className="heading-wd">Write your doubt:</label>
           <br />
           <textarea id="doubtText" name="doubtText" rows="4" cols="50" required></textarea>
           <br />
-          <input type="submit" value="Submit" />
+          <input class="submit-input"type="submit" value="Submit" />
         </form>
       </div>
 
@@ -133,6 +133,6 @@ export default function Doubt(){
   </div>
 </footer>
 
-        </>
+        </div>
     )
 }

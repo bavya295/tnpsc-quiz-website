@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Homepage.css';
+import logo from "./Images/TND.png";
 export default function Homepage(){
-    
+
 
 
     return (
-        <>
-        <img class="logo" src="TND.png" alt="TN Dynamo logo"></img>
+        <div class='animation-login'>
+        <img class="logo" src={logo} alt="TN Dynamo logo"></img>
         <h1 class="heading">TN Dynamo</h1>
         <img className="bg-firstpage"src="https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3072.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1702080000&semt=ais" alt="bg-gradient"></img>
         <img className="bg-firstpage1"src="https://t4.ftcdn.net/jpg/05/08/29/37/360_F_508293798_46b4xV1W6coouqpUwe1450LAMAEgjFMv.jpg" alt="bg-gradient"></img>
@@ -28,6 +29,6 @@ export default function Homepage(){
        <a class="temp"> Temproary Admin Login</a>
         </Link>
         </div>
-        </>
+        </div>
        );
 }

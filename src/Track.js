@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Track(){
     return (
-        <>
+      <div class='animation-login'>
     
      <header>
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -112,6 +112,6 @@ export default function Track(){
 
 
 
-    </>
+    </div>
     );
 }
