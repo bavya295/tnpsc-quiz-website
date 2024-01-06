@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tnpsc-quiz-website/static/css/main.ef435fb0.css",
-    "main.js": "/tnpsc-quiz-website/static/js/main.3d449656.js",
+    "main.css": "/tnpsc-quiz-website/static/css/main.c5c16310.css",
+    "main.js": "/tnpsc-quiz-website/static/js/main.586e73e1.js",
     "static/js/787.4829fc1b.chunk.js": "/tnpsc-quiz-website/static/js/787.4829fc1b.chunk.js",
     "static/media/Group 1 (4).png": "/tnpsc-quiz-website/static/media/Group 1 (4).85380d03832cc1d2f4ef.png",
     "static/media/Group 1 (5).png": "/tnpsc-quiz-website/static/media/Group 1 (5).3da035cb25a0add9fb4e.png",
@@ -9,13 +9,14 @@
     "static/media/Group 1 (1).png": "/tnpsc-quiz-website/static/media/Group 1 (1).e97ad236a3a47d4fd364.png",
     "static/media/Group 1 (3).png": "/tnpsc-quiz-website/static/media/Group 1 (3).42424d170d5cb4d053a3.png",
     "static/media/Group 1.png": "/tnpsc-quiz-website/static/media/Group 1.c5667dd548111a12c7c0.png",
+    "static/media/TND.png": "/tnpsc-quiz-website/static/media/TND.89e0e3f5e174d99749e1.png",
     "index.html": "/tnpsc-quiz-website/index.html",
-    "main.ef435fb0.css.map": "/tnpsc-quiz-website/static/css/main.ef435fb0.css.map",
-    "main.3d449656.js.map": "/tnpsc-quiz-website/static/js/main.3d449656.js.map",
+    "main.c5c16310.css.map": "/tnpsc-quiz-website/static/css/main.c5c16310.css.map",
+    "main.586e73e1.js.map": "/tnpsc-quiz-website/static/js/main.586e73e1.js.map",
     "787.4829fc1b.chunk.js.map": "/tnpsc-quiz-website/static/js/787.4829fc1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef435fb0.css",
-    "static/js/main.3d449656.js"
+    "static/css/main.c5c16310.css",
+    "static/js/main.586e73e1.js"
   ]
 }
